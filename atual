@@ -1,0 +1,58 @@
+transit/
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── logo.png
+├── vercel.json
+
+
+---
+
+📝 Conteúdo dos arquivos:
+
+index.html (/public/index.html)
+html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TRANSIT - Mobilidade Urbana</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <img src="/logo.png" alt="TRANSIT" class="logo" />
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Serviços</a>
+      <a href="#">Baixe o app</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Chegue ao seu destino com a TRANSIT</h1>
+    <p>Mobilidade urbana rápida, segura e acessível</p>
+    <a href="#" class="btn">Baixe o app</a>
+  </section>
+
+  <footer>
+    <p>© 2025 TRANSIT. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
+
+
+style.css (/public/style.css)
+```css
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
